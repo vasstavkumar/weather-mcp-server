@@ -1,0 +1,13 @@
+
+startCommand:
+  type: stdio
+  configSchema:
+    {}
+  commandFunction:
+    |-
+    (config) => ({
+      "command": "uv",
+      "args": [
+        "main.py"
+      ],
+    })
