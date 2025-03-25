@@ -8,6 +8,9 @@ startCommand:
     (config) => ({
       "command": "uv",
       "args": [
+        "--directory",
+        "/app",
+        "run",
         "main.py"
-      ],
+      ]
     })
